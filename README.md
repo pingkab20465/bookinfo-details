@@ -11,3 +11,9 @@ docker build -t details .
 # Run details service on port 8080
 docker run -d --name details -p 8080:8080 details
 ```
+
+## How to run with Docker Compose
+
+```bash
+docker-compose up
+```
